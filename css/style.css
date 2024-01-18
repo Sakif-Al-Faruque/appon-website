@@ -1,0 +1,12 @@
+:root{
+    --site_primary_clr: #744fa0;
+    --site_secondary_clr: #353535;
+    --site_social_clr: #1da1f2;
+    --site_light_clr: #f1f1f1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
