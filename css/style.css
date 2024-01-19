@@ -10,3 +10,194 @@
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* header starts */
+header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 30px 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.site-logo-container{
+    width: 20%;
+}
+.site-logo-container > img{
+    text-align: left;
+    display: block;
+}
+.site-menu-container{
+    width: 80%;
+}
+.site-menu-container > ul{
+    list-style: none;
+    text-align: right;
+}
+.site-menu-container > ul > li{
+    display: inline-block;
+    padding: 20px 0 20px 25px;
+    position: relative;
+}
+.site-menu-container > ul > li::after{
+    display: none;
+    content: '';
+    position: absolute;
+    background-color: var(--site_primary_clr);
+    width: 25px;
+    height: 5px;
+    bottom: 10px;
+}
+.site-menu-container > ul > li:hover::after{
+    display: block;
+}
+.site-menu-container > ul > li> a{
+    text-decoration: none;
+    color: var(--site_light_clr);
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.site-menu-container > ul > li:hover > a{
+    color: var(--site_primary_clr);
+}
+.site-menu-container > ul > li:last-child{
+    padding: 5px 25px;
+    background-color: var(--site_primary_clr);
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.site-menu-container > ul > li:last-child:hover{
+    background-color: var(--site_light_clr);
+}
+
+.site-menu-container > ul > li:last-child::after{
+    display: none;
+}
+
+.header-overlay{
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.banner-content{
+    width: 100%;
+    padding: 100px 0;
+}
+.banner-content-holder{
+    width: 100%;
+    text-align: right;
+    color: var(--site_light_clr);
+}
+.banner-content-holder > h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 500;
+}
+.banner-content-holder > h1::first-letter{
+    color: var(--site_primary_clr);
+}
+.banner-content-holder > h3{
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 25px 0;
+    font-size: 2rem;
+}
+.banner-content-divider{
+    display: inline-block;
+    width: 25%;
+    margin: 0 0 0 auto;
+    height: 5px;
+    background-color: var(--site_light_clr);
+
+}
+.banner-content-holder > p{
+    width: 50%;
+    margin: 0 0 0 auto;
+    padding: 25px 0 60px 0;
+    font-size: 14px;
+}
+.banner-content-holder > a{
+    display: inline-block;
+    background-color: var(--site_light_clr);
+    padding: 10px 30px 10px 60px;
+    border-radius: 5%;
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10px;
+}
+.banner-content-holder > a:hover{
+    background-color: var(--site_primary_clr);
+}
+.banner-content-holder > a > span:nth-child(1){
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.banner-content-holder > a > span:nth-child(1) img:nth-child(1),
+.banner-content-holder > a:hover > span:nth-child(1) img:nth-child(2){
+    display: inline;
+}
+.banner-content-holder > a > span:nth-child(1) img:nth-child(2),
+.banner-content-holder > a:hover > span:nth-child(1) img:nth-child(1){
+    display: none;
+}
+
+.banner-content-holder > a > span:nth-child(2),
+.banner-content-holder > a > span:nth-child(3){
+    color: var(--site_secondary_clr);
+    font-size: 14px;
+    display: block;
+}
+.banner-content-holder > a:hover > span:nth-child(2),
+.banner-content-holder > a:hover > span:nth-child(3){
+    color: var(--site_light_clr);
+}
+.banner-content-holder > a > span:nth-child(3){
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+/* header ends */
+
+
+#about-us{
+    width: 100%;
+    padding: 80px 0;
+}
+.about-us-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-left-portion{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+.section-header{
+    width: 100%;
+}
+
+.about-us-right-portion{
+    width: 50%;
+    text-align: right;
+}
