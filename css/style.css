@@ -387,7 +387,7 @@ a.feature-item:nth-child(5):after{
 /* features ends */
 
 
-
+/* screenshots starts */
 #screenshots{
     width: 100%;
     padding: 80px 0;
@@ -401,4 +401,31 @@ a.feature-item:nth-child(5):after{
 .ss-holder{
     width: 210;
     height: 342px;
+}
+/* screenshots ends */
+
+
+#video{
+    width: 100%;
+}
+.video-holder{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    margin-top: 30px;
+}
+.video-holder::after{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+a.play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
 }
