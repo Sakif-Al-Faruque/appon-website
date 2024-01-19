@@ -280,7 +280,7 @@ nav{
 
 
 
-
+/* features starts */
 #features{
     padding: 15px 0 30px 0;
     background-color: var(--site_light_clr);
@@ -384,3 +384,21 @@ a.feature-item:nth-child(5):after{
     padding-bottom: 30px;
 }
 
+/* features ends */
+
+
+
+#screenshots{
+    width: 100%;
+    padding: 80px 0;
+}
+.ss-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.ss-holder{
+    width: 210;
+    height: 342px;
+}
