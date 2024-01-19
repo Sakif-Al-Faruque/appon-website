@@ -179,6 +179,77 @@ nav{
 /* header ends */
 
 
+
+/* section header starts */
+.section-header{
+    width: 100%;
+}
+.section-name{
+    width: 100%;
+    text-align: center;
+    color: var(--site_secondary_clr);
+    font-size: 24px;
+    font-weight: 500;
+    text-transform:uppercase;
+    padding: 15px 0;
+}
+.section-icon{
+    width: 125px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+.section-icon > .left-wing{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: var(--site_secondary_clr);
+    padding: 0;
+    transform: translateY(-50%);
+}
+.section-icon > .left-wing::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: var(--site_secondary_clr);
+    padding: 0;
+    transform: translateY(-50%);
+}
+.section-icon > .right-wing{
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: var(--site_secondary_clr);
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.section-icon > .right-wing::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 3px);
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: var(--site_secondary_clr);
+    padding: 0;
+    transform: translateY(-50%);
+}
+/* section header ends */
+
+
+
 #about-us{
     width: 100%;
     padding: 80px 0;
@@ -191,11 +262,19 @@ nav{
 .about-us-left-portion{
     width: 50%;
     box-sizing: border-box;
-    padding: 0 100px;
+    padding: 0 60px;
+    text-align: center;
 }
-.section-header{
-    width: 100%;
+.about-us-left-portion > p{
+    color: var(--site_secondary_clr);
+    font-size: 14px;
+    padding: 15px 0;
+    letter-spacing: 2px;
+    /* line-height: 16px; */
 }
+
+
+
 
 .about-us-right-portion{
     width: 50%;
