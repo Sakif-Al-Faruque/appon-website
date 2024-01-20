@@ -405,6 +405,9 @@ a.feature-item:nth-child(5):after{
 /* screenshots ends */
 
 
+
+
+/* video starts */
 #video{
     width: 100%;
 }
@@ -429,3 +432,97 @@ a.play-btn{
     transform: translate(-50%, -50%);
     z-index: 1000;
 }
+/* video ends */
+
+
+
+
+/* price plan starts */
+#price-plan{
+    padding: 80px 0;
+}
+.price-container{
+    padding: 30px 0 0 0;
+}
+.price-items-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.price-plan-item{
+    width: 270px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid var(--site_light_clr);
+}
+.price-plan-item > h3{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--site_light_clr);
+}
+.price-plan-item:hover > h3{
+    background-color: var(--site_primary_clr);
+    color: var(--site_light_clr);
+}
+.price-box-container{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.price-box{
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px solid var(--site_light_clr);
+    padding: 30px 30px;
+}
+.price-box > span:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.price-box > span:nth-child(2){
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.price-box > span:nth-child(3){
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-transform: capitalize;
+}
+
+.price-description{
+    padding: 30px 0;
+    text-align: center;
+    background-color: var(--site_light_clr);
+}
+.price-description > span{
+    display: block;
+    padding-bottom: 15px;
+    color: var(--site_secondary_clr);
+    font-size: 14px;
+}
+.price-link{
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #353535;
+    padding: 10px 20px;
+    border: 1px solid var(--site_secondary_clr);
+    text-transform: capitalize;
+    margin-top: -20px;
+    background-color: #fff;
+}
+
+.price-plan-item:hover > .price-link{
+    background-color: var(--site_primary_clr);
+    border: 1px solid var(--site_primary_clr);
+    color: var(--site_light_clr);
+}
+/* price plan ends */
