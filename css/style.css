@@ -795,3 +795,39 @@ a.play-btn{
     text-transform: capitalize;
 }
 /* contact ends */
+
+
+/* footer starts */
+footer{
+    padding: 40px 0;
+    background-color: var(--site_secondary_clr);
+    text-align: center;
+}
+footer > span{
+    display: block;
+    padding: 10px 0;
+}
+footer > span > a{
+    text-decoration: none;
+}
+.footer-social-icon{
+    padding: 15px 15px;
+    background-color: var(--site_light_clr);
+    border-radius: 50%;
+    margin: 0 3px;
+    font-size: 18px;
+    color: var(--site_secondary_clr);
+}
+footer > span > a:nth-child(1) > .footer-social-icon{
+    padding: 15px 20px;
+}
+footer > p{
+    text-transform: capitalize;
+    color: var(--site_light_clr);
+    padding-top: 10px;
+}
+footer > p > span:nth-child(2){
+    text-transform: uppercase;
+    color: var(--site_primary_clr);
+}
+/* footer ends */
